@@ -8,6 +8,10 @@
   --font-style: normal;
 
 }
+/* icons */
+.fa-brands:hover{
+  background-color: #00C0FD;
+}
 
 .header{
   margin-top: 41px;
@@ -226,7 +230,7 @@
   background: #FFFFFF;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-  background-image: url(/images/med1.jpg);
+  background-image: url(/images/Zuric_project.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -293,6 +297,7 @@
 }
 .live-preview{
   margin-right: 10px;
+  
 }
 .projects-pictures ul li{
   display: flex;
