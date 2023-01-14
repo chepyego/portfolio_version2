@@ -12,7 +12,11 @@
 .fa-brands:hover{
   background-color: #00C0FD;
 }
+/* project :hover */
 
+ .project-hover:hover{
+  background-color: #00C0FD
+ }
 .header{
   margin-top: 41px;
 }
@@ -33,6 +37,7 @@
   line-height: 26px;
 }
 .header-links li a:hover{
+
   
   background-color: #00C0FD;
 }
@@ -234,13 +239,26 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.project-2{
+  background-image: url(/images/med1.jpg);
+}
+.project-3{
+  background-image: url(/images/log-final-copy.png);
+
+}
+.project-4{
+  background-image: url(/images/delete-react-final-cop.png);
+
+
+
+}
 .image{
   width:375px;
   height: 260px;
 }
 .project-details{
   position: absolute;
-  top: 40%;
+  top: 36%;
 
 }
 .project-details h3{
@@ -309,7 +327,7 @@
   display: flex;
   /* margin-right: 47px; */
   /* flex-direction: row; */
-  /* justify-content: center; */
+  justify-content: center;
 }
 .contact-section{
   margin-top: 225px;
@@ -361,4 +379,6 @@
   margin-right: 52px;
 }
 
-
+.hidden {
+  display: none;
+}
