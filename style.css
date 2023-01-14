@@ -185,6 +185,11 @@ border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
   margin-top: 214px;
 
 }
+.project-details{
+  margin-left: 28px;
+  align-items: center;
+  /* margin-right: 31px; */
+}
 .projects-titles{
   text-align: center;
 }
@@ -205,5 +210,85 @@ border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
   font-size: 32px;
   line-height: 26px;
   color: #666666;
+  margin-bottom: 96px;
 }
+.project-1{
+  margin-left: 20px;
+  position: relative;
+  width: 373px;
+  height: 567px;
+  /* background-color: #00C0FD; */
+  background: #FFFFFF;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-image: url(/images/med1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image{
+  width:375px;
+  height: 260px;
+}
+.project-details{
+  position: absolute;
+  top: 50%;
+
+}
+.project-details h3{
+  font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 28px;
+ line-height: 26px;
+ text-align: center;
+ color: #000000;
+ margin: 27px 0 17px 0;
+}
+.project-para-two{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+
+}
+.stack-para{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #42446E;
+}
+.live-view{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 21px ;
+}
+.live-view li{
+  display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration-line: underline
+}
+.github-view{
+  margin-right: 12px;
+}
+.live-preview{
+  margin-right: 10px;
+}
+.projects-pictures ul li{
+  display: flex;
+
+}
+
 
