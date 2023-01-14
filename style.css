@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
 }
+/* declaring your variables here ensures they are available globaly */
+:root{
+  --font-family: 'Poppins';
+  --font-style: normal;
+
+}
 
 .header{
   margin-top: 41px;
@@ -71,7 +77,11 @@ border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
 }
 .tech-stack{
   margin-top: 348px;
+}
+.tech-stack-content{
   text-align: center;
+
+
 }
 .tech-stack-title{
   font-family: 'Poppins';
@@ -91,8 +101,109 @@ border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
  margin-top: 49px;
  margin-bottom: 140px;
 }
+
+
+.technologies {
+  order: 4;
+
+  display: flex;
+  /* gap: 10px 20px; */
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+.technologies li{
+
+  display: flex;
+  order: 5;
+
+  
+  margin: 48px;
+
+}
+/* .technologies li + li{
+  /* margin: 10px; */
+  /* flex-wrap: wrap; */
+
+ /* */ */
 .html{
+  /* position: relative; */
   width: 120px;
   height: 120px;
-  background: #EBEBEB;
+  /* margin-left: 243.9px; */
+  /* background: #EBEBEB; */
+  /* border: none; */
 }
+.kala{
+  
+  font-size: 100px;
+  
+  color: #ff3300;
+}
+.css{
+  width: 120px;
+  height: 119px;
+  color: blue;
+  font-size: 100px;
+
+}
+.js{
+  width: 120px;
+  height: 120px;
+  color: yellow;
+  font-size: 100px;
+
+}
+.react{
+  height: 113px;
+  width: 102px;
+  font-size: 100px;
+  color: #00C0FD;
+}
+.git{
+  font-size: 100px;
+  color: #ff3300;
+}
+.github{
+  font-size: 100px;
+}
+.ruby{
+  
+  font-size: 100px;
+}
+.common-languages{
+  width: 120px;
+  height: 120px;
+  font-size: 200px;
+}
+
+.projects{
+  margin-top: 214px;
+
+}
+.projects-titles{
+  text-align: center;
+}
+.project-title{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: #42446E;
+  margin-bottom: 49px;
+
+}
+.project-para{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 26px;
+  color: #666666;
+}
+
