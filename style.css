@@ -395,3 +395,17 @@ letter-spacing: -1px;
 
 color: #1E0E62;
 }
+/* mobile styles */
+@media screen and (min-width: 600px) {
+  .home{
+    display: none;
+  }
+  
+}
+.mobile-navigation  {
+  /* display: flex; */
+  /* color: red; */
+  /* flex-direction: column; */
+        
+  
+}
