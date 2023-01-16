@@ -379,9 +379,9 @@
   margin-right: 52px;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 /* about page style */
 .about-title{
@@ -402,6 +402,7 @@ color: #1E0E62;
   }
   
 }
+
 .mobile-navigation  {
   /* display: flex; */
   /* color: red; */
