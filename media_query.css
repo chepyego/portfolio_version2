@@ -1,7 +1,117 @@
 @media only screen and (max-width: 600px) {
-    .header{
+    /* .header{
         display: none;
+    } */
+    .fa-bars{
+        cursor: pointer;
+
+
     }
+    #name{
+        /* color: red; */
+        text-align: left;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    .home {
+        display: flex;
+        position: absolute;
+        right: 4.86%;
+        height: 16px;
+    }
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+    .projects-pictures{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .projects-pictures{
+        order: 1;
+
+    }
+    .image-box{
+        display: none;
+        /* display: flex;
+        justify-content: center; */
+    }
+    .name-section{
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin: 20px;
+        text-align: left;
+        background-image: url(/images/jem.png);
+        background-repeat: no-repeat;
+        /* background-position: left; */
+        background-size: contain;
+        /* color: red; */
+        /* font-size: 10px; */
+    }
+    .technologies-div {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        flex-wrap: nowrap;
+       
+
+
+    }
+    .technologies{
+      order: 2;        
+        
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        background-color:rgb(207, 207, 231);
+        margin-top: 0;
+
+
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+
+    }
+    .contact-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-list li{
+        font-size: 20px;
+
+
+    }
+    
+
+    
+    .projects-pictures-ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* margin-right: 47px; */
+        /* flex-direction: row; */
+        justify-content: center;
+      }
+    /* home menu */
+   
     
     
     

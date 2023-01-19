@@ -2,31 +2,31 @@ const projectOne = document.getElementById("project-1");
 const projectTwo = document.getElementById("project-2");
 const projectName = document.getElementById("name");
 
-const homeMenu = document.querySelector(".name");
+let navLinks = document.getElementById("headerTwo");
+let mobileIcon = document.getElementById("homeOne");
+let navLink = navLinks.querySelectorAll("li");
 
-// projectTwo.remove();
-// alert("are you sure you want to delete this");
-projectName.addEventListener("mouseover",formResponsive );
-// projectName.addEventListener("mouseleave",formLeave );
 
-// function formLeave(){
-//     projectName.style.left = -75
-//     projectName.style.right = - 75
-// }
+mobileIcon.addEventListener("click", () => {
+    navLinks.classList.toggle('hide');
+})
+
+
+
 
 
 
     
 function editProject(){
     projectOne.addEventListener("click",formResponsive);
-    homeMenu.addEventListener("click", formResponsive);
+    // homeMenu.addEventListener("click", formResponsive);
 }
 
 function formResponsive(){
     // projectOne.style.backgroundColor = "red"
     projectOne.classList.add("project-hover");
-    homeMenu.cr
-    homeMenu.classList.add("mobile-navigation")
+    // homeMenu.cr
+    // homeMenu.classList.add("mobile-navigation")
     // projectOne.remove();
 
 }
