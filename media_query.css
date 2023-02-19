@@ -37,17 +37,20 @@
         order: 1;
 
     }
+    .projects-pictures-ul{
+        margin: auto;
+    }
     .image-box{
         display: none;
         /* display: flex;
         justify-content: center; */
     }
     .name-section{
-        /* display: flex; */
+        display: flex;
         /* flex-direction: column; */
         /* justify-content: center; */
-        /* align-items: center; */
-        margin: 20px;
+        align-items: center;
+        margin: auto;
         text-align: left;
         background-image: url(/images/jem.png);
         background-repeat: no-repeat;
